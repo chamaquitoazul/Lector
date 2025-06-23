@@ -1,0 +1,37 @@
+{
+  "name": "word-counter-parallel",
+  "version": "1.0.0",
+  "description": "Contador de palabras paralelo para archivos de texto grandes usando Node.js streams y worker threads",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js test/*.txt",
+    "demo": "node scripts/create-demo-files.js && node index.js demo-files/*.txt",
+    "benchmark": "node scripts/benchmark.js"
+  },
+  "keywords": [
+    "word-counter",
+    "text-processing",
+    "streams",
+    "worker-threads",
+    "parallel-processing",
+    "memory-efficient",
+    "nodejs"
+  ],
+  "author": "Tagshelf Interview Candidate",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/word-counter-parallel.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "bin": {
+    "word-counter": "./index.js"
+  }
+}
