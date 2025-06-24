@@ -1,0 +1,15 @@
+📊 Contador de Palabras Paralelo
+Un contador de palabras eficiente que procesa archivos grandes usando worker threads y streams.
+📋 Requisitos
+
+Node.js >= 12.0.0
+Sistema operativo: Windows, macOS, Linux
+
+📖 Uso Básico
+
+Ejecutar el contador
+bash# Procesar un archivo
+node index.js test.txt
+
+# Procesar múltiples archivos
+node index.js archivo1.txt archivo2.txt
